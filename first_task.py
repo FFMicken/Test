@@ -162,3 +162,7 @@ for val in [10, 20, 30]:
 root = avl.insert_at_index(root, 1, 15)
 
 print(avl.get_value_at_index(root, 1))  # 15
+
+# Удаление элемента по индексу
+root = avl.delete_at_index(root, 1)
+print(avl.get_value_at_index(root, 1)) 
